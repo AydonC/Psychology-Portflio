@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    overflow: hidden; /* Prevents scroll bars from appearing */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('./assets/background.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+    z-index: 1; /* Ensures overlay is above background but below content */
+}
+
+.h1 {
+    z-index: 2;
+    color: white;
+    font-size: 60px; /* Adjusted for better responsiveness */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds depth for better readability */
+    margin-bottom: 20px;
+}
+
+.content2 {
+    position: relative;
+    z-index: 2; /* Ensures content is above the overlay */
+    margin: 50px;
+    color: white;
+    max-width: 800px;
+}
+
+.Para {
+    color: rgb(180, 180, 180); /* Lighter gray for better contrast */
+    font-size: 22px;
+  
+}
+
+.desc {
+    color: white;
+    font-size: 18px;
+    
+}
+
+.but {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 12px 24px;
+    background-color: #ffffff; /* Button background */
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 0; /* Aligned with the content */
+    transition: background-color 0.3s ease;
+}
+
+.but:hover {
+    background-color: #969696; /* Darker shade on hover */
+    color: white;
+    
+}
+
+
