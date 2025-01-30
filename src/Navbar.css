@@ -1,0 +1,35 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    z-index: 10; /* Ensure navbar stays above everything */
+    padding: 20px 0;
+    
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center;
+    list-style: none;
+    gap: 20px; /* Space between items */
+}
+
+.nav-list li {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-list a:hover {
+    color: #000000; /* Change text color on hover */
+    background-color: rgb(212, 212, 212); /* Add a slight background effect */
+}
