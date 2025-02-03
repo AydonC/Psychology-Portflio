@@ -1,0 +1,106 @@
+.booking-form {
+    width: 30vw;
+    z-index: 3;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;  
+    margin-top: 66px;
+  
+
+   
+}
+
+
+.booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-form label {
+    margin-top: 15px;
+    font-size: 16px;
+    display: block;
+}
+
+.booking-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+.booking-form button {
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #fff;
+    border-style: solid;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.booking-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.booked-date {
+    background-color: red !important;
+    color: white !important;
+}
+
+.available-date {
+    background-color: green !important;
+    color: white !important;
+}
+
+.disabled-date {
+    background-color: lightgray !important;
+    color: #fff !important;
+    cursor: not-allowed;
+}
+
+.selected-date {
+    border: 2px solid #000000 !important;
+
+}
+
+.react-calendar {
+    width: 30vw;
+
+    margin: 0 auto;
+}
+
+.book {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.pr {
+    font-size: 40px;
+}
+
+
+body{
+    overflow-x: hidden;
+}
